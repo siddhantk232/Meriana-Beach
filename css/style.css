@@ -1,0 +1,41 @@
+body{
+  font-family:'Open-sans', sans-serif;
+  font-size:17px;
+  line-height:1.5em;
+  margin:0;
+  padding:0;
+}
+.container{
+  margin:auto;
+}
+#showcase{
+  background: url(../img/showcase.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#showcase .row{
+  height: 100vh;
+  color: #767729;
+}
+#showcase .row h1{
+  font-size: 60px;
+  letter-spacing: 8px;
+  padding: 0;
+  margin-bottom: 0;
+}
+#showcase .row p{
+  font-size: 20px;
+  padding: 0;
+  margin-top: 2em;
+  letter-spacing: 7px;
+}
+.btn{
+  text-decoration: none;
+  padding: 5px;
+  color: #767729;
+  border: 1px solid #767729;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #767729;
+}
